@@ -1,2 +1,3 @@
-x="hello world"
-print(x);
+x="rok"
+y="no"
+print(x+y);
