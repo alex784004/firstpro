@@ -12,7 +12,7 @@ int main()
 int h;
 cin>>h;
 
-cout<<(umap.find(h)!=umpa.end());
+cout<<(umap.find(h)!=umap.end());
 	
 	return 0;
 }
