@@ -1,0 +1,31 @@
+// Details:
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+	
+	int t;
+	cin>>t;
+
+int low=0;
+int high=7;
+
+	while(t--){
+	
+int n;
+cin>>n;
+if(abs(n-low)<= abs(high-n))
+{
+	cout<<"A"<<endl;
+	low=n;
+}
+else
+
+{
+	cout<<"B"<<endl;
+	high=n;
+}
+
+}
+	return 0;
+}
